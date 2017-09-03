@@ -1,0 +1,21 @@
+{
+  "name": "mongo-full-export",
+  "version": "0.0.1",
+  "description": "NodeJS command line tool for exporting/importing all collections from a mongoDB database at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongofull": "./index.js"
+  },
+  "bin": {
+    "mongofull": "./index.js"
+  },
+  "author": "David Mork",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "rsvp": "^4.0.1"
+  }
+}
