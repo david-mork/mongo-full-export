@@ -1,2 +1,2 @@
 # mongo-full-export
-NodeJS command line tool for exporting/importing multiple collections from a MongoDB database at once
+Small NodeJS command line tool that can help you to export or import multiple collections from a MongoDB database at once in JSON format
